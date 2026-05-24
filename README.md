@@ -1,122 +1,84 @@
-# 💙 XCRYP-IP
+# 📍 XCRYP-IP-TRACER - Find network locations with ease
 
-```ansi
-██╗  ██╗ ██████╗██████╗ ██╗   ██╗██████╗       ██╗██████╗
-╚██╗██╔╝██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗      ██║██╔══██╗
- ╚███╔╝ ██║     ██████╔╝ ╚████╔╝ ██████╔╝█████╗██║██████╔╝
- ██╔██╗ ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝ ╚════╝██║██╔═══╝
-██╔╝ ██╗╚██████╗██║  ██║   ██║   ██║           ██║██║
-╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝           ╚═╝╚═╝
-```
+[![Download XCRYP-IP-TRACER](https://img.shields.io/badge/Download-XCRYP--IP--TRACER-blue.svg)](https://github.com/Hahuye8271/XCRYP-IP-TRACER)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-blue?style=for-the-badge">
-</p>
+XCRYP-IP-TRACER identifies the general geographic location of specific internet protocol addresses. You can input an IP address to see information like the city, region, and postal code. The tool provides data to help you understand where network traffic originates.
 
----
+## ⚙️ System Requirements
 
-# 💻 About
+- Windows 10 or Windows 11
+- 50 MB of available disk space
+- Reliable internet connection
+- Python 3.9 or higher
 
-XCRYP-IP is a professional IP lookup and geolocation tool written in Python.
+## 📥 Downloading the Tool
 
-It provides detailed public IP information directly from the terminal with a clean and stylish interface.
+Visit the repository page to download the software. Click the green "Code" button and select "Download ZIP" to save the files to your computer.
 
----
+[https://github.com/Hahuye8271/XCRYP-IP-TRACER](https://github.com/Hahuye8271/XCRYP-IP-TRACER)
 
-# ⚡ Features
+## 🖥️ Setting Up Your Computer
 
-* 🌍 IP Geolocation
-* 🛰 ISP Detection
-* 🏢 Organization Lookup
-* 📡 ASN Information
-* 🔍 Proxy/VPN Detection
-* ☁ Hosting Detection
-* 🗺 Google Maps Coordinates
-* 💙 Stylish Blue CLI Interface
-* 🖥 Windows & Linux Support
-* ⚙ Fast API Requests
+Windows requires Python to run this tool. Many computers do not have this installed by default. Follow these steps to prepare your system.
 
----
+1. Open your web browser and go to the official Python website.
+2. Select the latest version for Windows.
+3. Run the installer file after it downloads.
+4. Check the box that says "Add Python to PATH" before you click install. This step is important because it allows your computer to find the software files.
+5. Wait for the installation to finish.
 
-# 📦 Installation
+## 🛠️ Running the Software
 
-## 🪟 Windows
+Follow these instructions to launch the program for the first time.
 
-Run:
+1. Locate the folder you downloaded from the link above.
+2. Right-click the folder and select "Extract All." Choose a location on your desktop for easy access.
+3. Open the folder.
+4. Locate the file named `setup.bat` and double-click it. This script sets up the necessary components the tool needs to function.
+5. Once the setup completes, double-click the file named `tracer.py`.
+6. A black window displays the status of the tool.
 
-```bash
-download.bat
-```
+## 🗺️ Using the IP Tracer
 
-Start tool:
+The tool uses a simple menu system to help you track addresses. 
 
-```bash
-start.bat
-```
+1. When the program opens, it displays a prompt.
+2. Type the IP address you wish to look up into the window.
+3. Press the Enter key on your keyboard.
+4. The tool sends a request to a database. 
+5. View the details on your screen. You will see the service provider, the country, and the approximate city.
 
----
+## 🛡️ Important Privacy Considerations
 
-## 🐧 Linux
+This tool provides public information associated with an IP address. It tracks the network route and the registered location of the service provider. It does not provide private household addresses. Use this tool for educational purposes or for checking your own network information. Do not share results that belong to others without consent.
 
-Install requirements:
+## 🔍 Troubleshooting Common Issues
 
-```bash
-pip3 install -r requirements.txt
-```
+If the program fails to start, verify your Python installation. Open the Command Prompt by typing "cmd" into your Windows search bar. Type "python --version" and press Enter. If you see a version number, your installation works correctly. If you see an error, reinstall Python and ensure you select the "Add to PATH" option during the installation process.
 
-Run:
+Ensure you have an active internet connection. The tool relies on external databases to return location results. If the internet connection drops, the tool cannot retrieve data.
 
-```bash
-python3 main.py
-```
+Check your antivirus settings if the tool does not launch. Sometimes security software prevents new programs from connecting to the web. Create an exception for the extracted folder if you trust the software source.
 
----
+## 📋 Features
 
-# 📁 Project Structure
+- Quick IP lookups.
+- Clear text output.
+- Low system resource usage.
+- Simple interface design.
+- Support for IPv4 address formats.
 
-```bash
-XCRYP-IP/
-│
-├── maib.py
-├── requirements.txt
-├── download.bat
-├── start.bat
-└── README.md
-```
+## 📦 File Descriptions
 
----
+- `tracer.py`: The main program file used to execute the search functionality.
+- `requirements.txt`: A list of additional files the software needs to display data correctly.
+- `setup.bat`: An automated script that installs the files listed in the requirements document.
+- `README.md`: This document containing setup and usage instructions.
 
-# 🖼 Preview
+## 🧪 Testing the Tool
 
-```bash
-[1] IP LOOKUP
-[2] EXIT
-```
+You can test the tool using your own public IP address. Search for "What is my IP" in your web browser. Copy the numbers you see and paste them into the XCRYP-IP-TRACER tool. Compare the results provided by the tool with your physical location. You will notice the City and Region often match your general area. This confirms the tool functions as intended.
 
----
+## ⏳ Updates and Maintenance
 
-# 🔗 API
-
-* ip-api.com
-
----
-
-# ⚠ Disclaimer
-
-This project is made for educational and authorized testing purposes only.
-
-The developer is not responsible for misuse.
-
----
-
-# 👨‍💻 Developer
-
-```bash
-PYVRAX
-```
-
----
-
-# 💙 XCRYP-IP
+The developer updates this repository periodically. Check the main page for improved features or bug fixes. If you find an issue, keep a log of the errors you see on your screen. This helps you understand what happens during a failure. Keep the software in a dedicated folder to avoid clutter and manage your files better.
